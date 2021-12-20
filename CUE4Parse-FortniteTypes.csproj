@@ -7,8 +7,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\..\FModel\FModel\CUE4Parse\CUE4Parse-Fortnite\CUE4Parse-Fortnite.csproj" />
-      <ProjectReference Include="..\..\..\FModel\FModel\CUE4Parse\CUE4Parse\CUE4Parse.csproj" />
+      <ProjectReference Include="..\CUE4Parse\CUE4Parse-Fortnite\CUE4Parse-Fortnite.csproj" />
+      <ProjectReference Include="..\CUE4Parse\CUE4Parse\CUE4Parse.csproj" />
     </ItemGroup>
 
 </Project>
