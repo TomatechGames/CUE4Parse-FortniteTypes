@@ -6,9 +6,19 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <PropertyGroup>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <Description>An extension of CUE4Parse that adds easier access to Fortnite-specific types!</Description>
+        <PackageProjectUrl>https://github.com/BanjoByTheBay/CUE4Parse-FortniteTypes</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/BanjoByTheBay/CUE4Parse-FortniteTypes.git</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <VersionSuffix>banjobythebay</VersionSuffix>
+    </PropertyGroup>
+
     <ItemGroup>
-      <ProjectReference Include="..\CUE4Parse\CUE4Parse-Fortnite\CUE4Parse-Fortnite.csproj" />
-      <ProjectReference Include="..\CUE4Parse\CUE4Parse\CUE4Parse.csproj" />
+      <PackageReference Include="CUE4Parse" Version="1.0.0-banjobythebay" />
+      <PackageReference Include="CUE4Parse-Conversion" Version="1.0.0-banjobythebay" />
+      <PackageReference Include="CUE4Parse-Fortnite" Version="1.0.0-banjobythebay" />
     </ItemGroup>
 
 </Project>
