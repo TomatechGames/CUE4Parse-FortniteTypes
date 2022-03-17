@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>net6.0</TargetFramework>
@@ -12,13 +12,14 @@
         <PackageProjectUrl>https://github.com/BanjoByTheBay/CUE4Parse-FortniteTypes</PackageProjectUrl>
         <RepositoryUrl>https://github.com/BanjoByTheBay/CUE4Parse-FortniteTypes.git</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
-        <VersionSuffix>banjobythebay</VersionSuffix>
+        <VersionSuffix>unofficial</VersionSuffix>
+        <PackageId>BanjoByTheBay.CUE4Parse.FortniteTypes</PackageId>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="CUE4Parse" Version="1.0.0-banjobythebay" />
-      <PackageReference Include="CUE4Parse-Conversion" Version="1.0.0-banjobythebay" />
-      <PackageReference Include="CUE4Parse-Fortnite" Version="1.0.0-banjobythebay" />
+      <PackageReference Include="BanjoByTheBay.CUE4Parse" Version="1.0.0-unofficial" />
+      <PackageReference Include="BanjoByTheBay.CUE4Parse.Conversion" Version="1.0.0-unofficial" />
+      <PackageReference Include="BanjoByTheBay.CUE4Parse.Fortnite" Version="1.0.0-unofficial" />
     </ItemGroup>
 
 </Project>
