@@ -1,3 +1,4 @@
+using CUE4Parse.FN.Enums;
 using CUE4Parse.FN.Enums.FortniteGame;
 using CUE4Parse.FN.Structs.Engine;
 using CUE4Parse.FN.Structs.GA;
@@ -10,7 +11,6 @@ using CUE4Parse.UE4.Objects.Core.i18N;
 using CUE4Parse.UE4.Objects.Core.Math;
 using CUE4Parse.UE4.Objects.GameplayTags;
 using CUE4Parse.UE4.Objects.UObject;
-using CUE4Parse_Fortnite.Enums;
 
 namespace CUE4Parse.FN.Exports.FortniteGame
 {

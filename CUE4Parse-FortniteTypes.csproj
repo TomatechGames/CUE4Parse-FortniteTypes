@@ -6,6 +6,10 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+	<PropertyGroup>
+		<VersionPrefix>1.0.6</VersionPrefix>
+	</PropertyGroup>
+
     <PropertyGroup>
         <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
         <Description>An extension of CUE4Parse that adds easier access to Fortnite-specific types!</Description>
@@ -17,9 +21,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="BanjoByTheBay.CUE4Parse" Version="1.0.0-unofficial" />
-      <PackageReference Include="BanjoByTheBay.CUE4Parse.Conversion" Version="1.0.0-unofficial" />
-      <PackageReference Include="BanjoByTheBay.CUE4Parse.Fortnite" Version="1.0.0-unofficial" />
+      <PackageReference Include="BanjoByTheBay.CUE4Parse" Version="1.0.6-unofficial" />
+      <PackageReference Include="BanjoByTheBay.CUE4Parse.Conversion" Version="1.0.6-unofficial" />
     </ItemGroup>
 
 </Project>
