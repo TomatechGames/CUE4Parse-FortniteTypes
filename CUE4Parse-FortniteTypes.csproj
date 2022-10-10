@@ -21,8 +21,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="BanjoByTheBay.CUE4Parse" Version="1.0.6-unofficial" />
-      <PackageReference Include="BanjoByTheBay.CUE4Parse.Conversion" Version="1.0.6-unofficial" />
+        <PackageReference Include="CUE4Parse" Version="1.0.2" />
+        <PackageReference Include="CUE4Parse-Conversion" Version="1.0.2" />
     </ItemGroup>
 
 </Project>
