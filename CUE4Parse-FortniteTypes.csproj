@@ -7,7 +7,7 @@
     </PropertyGroup>
 
 	<PropertyGroup>
-		<VersionPrefix>1.0.7</VersionPrefix>
+		<VersionPrefix>1.0.8</VersionPrefix>
 	</PropertyGroup>
 
     <PropertyGroup>
@@ -20,9 +20,10 @@
         <PackageId>BanjoByTheBay.CUE4Parse.FortniteTypes</PackageId>
     </PropertyGroup>
 
-    <ItemGroup>
-        <PackageReference Include="CUE4Parse" Version="1.0.2" />
-        <PackageReference Include="CUE4Parse-Conversion" Version="1.0.2" />
-    </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\CUE4Parse\CUE4Parse\CUE4Parse.csproj" />
+		<ProjectReference Include="..\CUE4Parse\CUE4Parse-Conversion\CUE4Parse-Conversion.csproj" />
+	</ItemGroup>
+	
 
 </Project>

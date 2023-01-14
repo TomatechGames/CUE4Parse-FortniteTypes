@@ -1,7 +1,7 @@
-using CUE4Parse.FN.Enums;
 using CUE4Parse.FN.Enums.FortniteGame;
 using CUE4Parse.FN.Structs.Engine;
 using CUE4Parse.FN.Structs.GA;
+using CUE4Parse.GameTypes.FN.Enums;
 using CUE4Parse.UE4.Assets.Exports;
 using CUE4Parse.UE4.Assets.Exports.SkeletalMesh;
 using CUE4Parse.UE4.Assets.Exports.StaticMesh;
