@@ -1,7 +1,6 @@
 using CUE4Parse.FN.Structs.Engine;
 using CUE4Parse.FN.Structs.FortniteGame;
 using CUE4Parse.FN.Structs.GA;
-using CUE4Parse.FN.Structs.GT;
 using CUE4Parse.UE4.Assets.Readers;
 using CUE4Parse.UE4.Objects.GameplayTags;
 using CUE4Parse.UE4.Objects.UObject;

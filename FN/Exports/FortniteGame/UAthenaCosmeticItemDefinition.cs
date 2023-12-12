@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using CUE4Parse.FN.Enums.FortniteGame;
 using CUE4Parse.FN.Exports.FortniteGame.NoProperties;
 using CUE4Parse.FN.Structs.FortniteGame;
-using CUE4Parse.FN.Structs.GT;
 using CUE4Parse.UE4.Assets.Objects;
 using CUE4Parse.UE4.Assets.Readers;
 using CUE4Parse.UE4.Objects.Core.i18N;
