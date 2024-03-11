@@ -30,9 +30,9 @@ namespace CUE4Parse.FN.Exports.FortniteGame
         public bool bForceAutoPickup;
         public bool bInventorySizeLimited;
         public FText? ItemTypeNameOverride;
-        public FText? DisplayName;
+        public FText? ItemName;
         public FText? ShortDescription;
-        public FText? Description;
+        public FText? ItemDescription;
         public FText? DisplayNamePrefix;
         public FText? SearchTags;
         public FName GiftBoxGroupName;
@@ -75,9 +75,9 @@ namespace CUE4Parse.FN.Exports.FortniteGame
             bForceAutoPickup = GetOrDefault<bool>(nameof(bForceAutoPickup));
             bInventorySizeLimited = GetOrDefault<bool>(nameof(bInventorySizeLimited));
             ItemTypeNameOverride = GetOrDefault<FText>(nameof(ItemTypeNameOverride));
-            DisplayName = GetOrDefault<FText>(nameof(DisplayName));
+            ItemName = GetOrDefault<FText>(nameof(ItemName));
             ShortDescription = GetOrDefault<FText>(nameof(ShortDescription));
-            Description = GetOrDefault<FText>(nameof(Description));
+            ItemDescription = GetOrDefault<FText>(nameof(ItemDescription));
             DisplayNamePrefix = GetOrDefault<FText>(nameof(DisplayNamePrefix));
             SearchTags = GetOrDefault<FText>(nameof(SearchTags));
             GiftBoxGroupName = GetOrDefault<FName>(nameof(GiftBoxGroupName));
