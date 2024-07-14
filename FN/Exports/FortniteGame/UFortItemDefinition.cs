@@ -81,7 +81,7 @@ namespace CUE4Parse.FN.Exports.FortniteGame
             DisplayNamePrefix = GetOrDefault<FText>(nameof(DisplayNamePrefix));
             SearchTags = GetOrDefault<FText>(nameof(SearchTags));
             GiftBoxGroupName = GetOrDefault<FName>(nameof(GiftBoxGroupName));
-            GameplayTags = GetOrDefault<FGameplayTagContainer>(nameof(GameplayTags));
+            GameplayTags = GetOrDefaultFromDataList<FGameplayTagContainer>("Tags");
             AutomationTags = GetOrDefault<FGameplayTagContainer>(nameof(AutomationTags));
             SecondaryCategoryOverrideTags = GetOrDefault<FGameplayTagContainer>(nameof(SecondaryCategoryOverrideTags));
             TertiaryCategoryOverrideTags = GetOrDefault<FGameplayTagContainer>(nameof(TertiaryCategoryOverrideTags));
