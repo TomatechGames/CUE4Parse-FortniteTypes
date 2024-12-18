@@ -81,7 +81,7 @@ namespace CUE4Parse.FN.Exports.FortniteGame
             var previewDrivers = GetOrDefault(nameof(ReactivePreviewDrivers), new UScriptMap());
             foreach (var (key, value) in previewDrivers.Properties)
             {
-                if (key?.GenericValue is UScriptStruct { StructType: FStructFallback variantInfo } && value?.GenericValue is FSoftObjectPath clazz)
+                if (key?.GenericValue is FScriptStruct { StructType: FStructFallback variantInfo } && value?.GenericValue is FSoftObjectPath clazz)
                 {
                     ReactivePreviewDrivers.Add(new FCosmeticVariantInfo(variantInfo), clazz);
                 }

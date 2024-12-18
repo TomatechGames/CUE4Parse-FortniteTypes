@@ -45,7 +45,7 @@ namespace CUE4Parse.FN.Exports.FortniteGame
             var taggedParts = GetOrDefault(nameof(TaggedPartsOverride), new UScriptMap());
             foreach (var (key, value) in taggedParts.Properties)
             {
-                if (key?.GenericValue is UScriptStruct { StructType: FStructFallback tag } && value?.GenericValue is UScriptStruct { StructType: FStructFallback parts })
+                if (key?.GenericValue is FScriptStruct { StructType: FStructFallback tag } && value?.GenericValue is FScriptStruct { StructType: FStructFallback parts })
                 {
                     TaggedPartsOverride.Add(new FGameplayTag(tag), new FAthenaCharacterTaggedPartsList(parts));
                 }

@@ -74,7 +74,7 @@ namespace CUE4Parse.FN.Exports.FortniteGame
             foreach (var (key, value) in soundParams.Properties)
             {
                 if (key is EnumProperty k && Enum.TryParse(k.Value.Text, true, out ELayeredAudioTriggerDirection direction) &&
-                    value?.GenericValue is UScriptStruct { StructType: FStructFallback param })
+                    value?.GenericValue is FScriptStruct { StructType: FStructFallback param })
                 {
                     ThrustSoundParams.Add(direction, param);
                 }
