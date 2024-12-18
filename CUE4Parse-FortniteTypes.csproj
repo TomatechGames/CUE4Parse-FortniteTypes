@@ -20,6 +20,10 @@
         <PackageId>BanjoByTheBay.CUE4Parse.FortniteTypes</PackageId>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="System.Drawing.Common" Version="4.7.3" />
+    </ItemGroup>
+
 	<ItemGroup>
 		<ProjectReference Include="..\CUE4Parse\CUE4Parse\CUE4Parse.csproj" />
 		<ProjectReference Include="..\CUE4Parse\CUE4Parse-Conversion\CUE4Parse-Conversion.csproj" />
