@@ -2,6 +2,7 @@ using CUE4Parse.FN.Enums.FortniteGame;
 using CUE4Parse.FN.Structs.Engine;
 using CUE4Parse.FN.Structs.GA;
 using CUE4Parse.GameTypes.FN.Enums;
+using CUE4Parse.Utilities;
 using CUE4Parse.UE4.Assets.Exports;
 using CUE4Parse.UE4.Assets.Exports.SkeletalMesh;
 using CUE4Parse.UE4.Assets.Exports.StaticMesh;
@@ -81,7 +82,7 @@ namespace CUE4Parse.FN.Exports.FortniteGame
             DisplayNamePrefix = GetOrDefault<FText>(nameof(DisplayNamePrefix));
             SearchTags = GetOrDefault<FText>(nameof(SearchTags));
             GiftBoxGroupName = GetOrDefault<FName>(nameof(GiftBoxGroupName));
-            GameplayTags = GetOrDefaultFromDataList<FGameplayTagContainer>("Tags");
+            GameplayTags = this.GetOrDefaultFromDataList<FGameplayTagContainer>("Tags");
             AutomationTags = GetOrDefault<FGameplayTagContainer>(nameof(AutomationTags));
             SecondaryCategoryOverrideTags = GetOrDefault<FGameplayTagContainer>(nameof(SecondaryCategoryOverrideTags));
             TertiaryCategoryOverrideTags = GetOrDefault<FGameplayTagContainer>(nameof(TertiaryCategoryOverrideTags));
